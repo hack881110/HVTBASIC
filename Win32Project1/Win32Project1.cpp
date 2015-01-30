@@ -152,6 +152,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		// TODO: 在此添加任意绘图代码...
 		EndPaint(hWnd, &ps);
 		break;
+	case WM_CREATE:
+		break;
 	case WM_DESTROY:
 		PostQuitMessage(0);
 		break;
